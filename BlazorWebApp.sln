@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorWebApp.Client", "Blaz
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data", "Data\Data.csproj", "{7906CF4C-B71E-4F00-BF46-72BC6A7DF505}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data.Models", "Data.Models\Data.Models.csproj", "{FC294F40-18C7-44C7-8A88-5650FADB5E3F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -32,6 +34,10 @@ Global
 		{7906CF4C-B71E-4F00-BF46-72BC6A7DF505}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7906CF4C-B71E-4F00-BF46-72BC6A7DF505}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7906CF4C-B71E-4F00-BF46-72BC6A7DF505}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC294F40-18C7-44C7-8A88-5650FADB5E3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC294F40-18C7-44C7-8A88-5650FADB5E3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC294F40-18C7-44C7-8A88-5650FADB5E3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC294F40-18C7-44C7-8A88-5650FADB5E3F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{90599735-FACA-48C4-A0FA-24063CE4F7E4} = {FAEFBA4F-FA23-4456-A027-7B413AD1A65F}
