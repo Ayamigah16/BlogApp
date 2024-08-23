@@ -1,6 +1,6 @@
 using System.Runtime.Intrinsics.X86;
 
-namespace Data.Models;
+namespace Data.Models
 {
     public class BlogPost
     {   
