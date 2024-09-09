@@ -3,6 +3,7 @@ using BlazorWebApp.Components;
 
 using Data;
 using Data.Models.Interfaces;
+using SharedComponents;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -44,6 +45,7 @@ app.UseAntiforgery();
 app.MapRazorComponents<App>()
     .AddInteractiveServerRenderMode()
     .AddInteractiveWebAssemblyRenderMode()
-    .AddAdditionalAssemblies(typeof(BlazorWebApp.Client._Imports).Assembly);
+    .AddAdditionalAssemblies(typeof(BlazorWebApp.Client._Imports).Assembly)
+    .AddAdditionalAssemblies(typeof(SharedComponents.Pages.Home).Assembly);
 
 app.Run();
