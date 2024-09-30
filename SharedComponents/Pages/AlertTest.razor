@@ -1,0 +1,15 @@
+@page "/alerttest"
+@using SharedComponents.ReusableComponents;
+
+<Alert Style="Alert.AlertStyle.Danger">
+    This is a test
+</Alert>
+
+<Alert Style="Alert.AlertStyle.Success">
+    <ChildContent>
+        <h1>Custom Child Content</h1>
+        <p>This is a custom child content</p>
+    </ChildContent>
+</Alert>
+
+<Alert Style="Alert.AlertStyle.Success"/>
